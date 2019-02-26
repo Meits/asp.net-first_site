@@ -1,0 +1,24 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>Hello ASP.NET MVC Core</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <environment include="Development">
+        <link href="~/css/style.css" type="text/css" rel="stylesheet"  />
+    </environment>
+</head>
+<body>
+    
+    <div class="main-title">
+    @RenderBody()
+    </div>
+    <environment include="Development">
+        <script src="~/js/app.js" asp-append-version="true"></script>
+    </environment>
+</body>
+</html>
+

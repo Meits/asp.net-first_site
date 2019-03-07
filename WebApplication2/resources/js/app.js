@@ -4,6 +4,8 @@
 
 require('materialize-css');
 
+import App from './components/App';
+
 window.Vue = require('vue');
 
 if (document.getElementById('app')) {

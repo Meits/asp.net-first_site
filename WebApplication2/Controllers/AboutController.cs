@@ -6,11 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication2.Controllers
 {
-    public class HomeController : Controller
+    public class AboutController : Controller
     {
         public IActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "About Page";
             return View();
         }
     }
